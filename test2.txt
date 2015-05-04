@@ -1,0 +1,86 @@
+	-- load d6 payment info
+	exec usp_d6_payment_import @payin#outst#1#date,	@payin#outst#1#invoice,	@payin#outst#1#amount, @f1, @d6_id, 'unpaid', @success output
+	if @success = 1 goto goto_next_record
+	exec usp_d6_payment_import @payin#outst#2#date,	@payin#outst#2#invoice,	@payin#outst#2#amount, @f1, @d6_id, 'unpaid', @success output
+	if @success = 1 goto goto_next_record
+	exec usp_d6_payment_import @payin#outst#3#date,	@payin#outst#3#invoice,	@payin#outst#3#amount, @f1, @d6_id, 'unpaid', @success output
+	if @success = 1 goto goto_next_record
+	exec usp_d6_payment_import @payin#outst#4#date,	@payin#outst#4#invoice,	@payin#outst#4#amount, @f1, @d6_id, 'unpaid', @success output
+	if @success = 1 goto goto_next_record
+	exec usp_d6_payment_import @payin#outst#5#date,	@payin#outst#5#invoice,	@payin#outst#5#amount, @f1, @d6_id, 'unpaid', @success output
+	if @success = 1 goto goto_next_record
+	exec usp_d6_payment_import @payin#outst#6#date,	@payin#outst#6#invoice,	@payin#outst#6#amount, @f1, @d6_id, 'unpaid', @success output
+	if @success = 1 goto goto_next_record
+	exec usp_d6_payment_import @payin#outst#7#date,	@payin#outst#7#invoice,	@payin#outst#7#amount, @f1, @d6_id, 'unpaid', @success output
+	if @success = 1 goto goto_next_record
+
+
+
+	exec usp_d6_payment_import @p1#addon#payin#outst#10#date,	@p1#addon#payin#outst#10#invoice,	@p1#addon#payin#outst#10#amount, @f1, @d6_id, 'unpaid', @success output
+	if @success = 1 goto goto_next_record
+	exec usp_d6_payment_import @p1#addon#payin#outst#11#date,	@p1#addon#payin#outst#11#invoice,	@p1#addon#payin#outst#11#amount, @f1, @d6_id, 'unpaid', @success output
+	if @success = 1 goto goto_next_record
+	exec usp_d6_payment_import @p1#addon#payin#outst#12#date,	@p1#addon#payin#outst#12#invoice,	@p1#addon#payin#outst#12#amount, @f1, @d6_id, 'unpaid', @success output
+	if @success = 1 goto goto_next_record
+	exec usp_d6_payment_import @p1#addon#payin#outst#13#date,	@p1#addon#payin#outst#13#invoice,	@p1#addon#payin#outst#13#amount, @f1, @d6_id, 'unpaid', @success output
+	if @success = 1 goto goto_next_record
+	exec usp_d6_payment_import @p1#addon#payin#outst#14#date,	@p1#addon#payin#outst#14#invoice,	@p1#addon#payin#outst#14#amount, @f1, @d6_id, 'unpaid', @success output
+	if @success = 1 goto goto_next_record
+	exec usp_d6_payment_import @p1#addon#payin#outst#15#date,	@p1#addon#payin#outst#15#invoice,	@p1#addon#payin#outst#15#amount, @f1, @d6_id, 'unpaid', @success output
+	if @success = 1 goto goto_next_record
+	exec usp_d6_payment_import @p1#addon#payin#outst#16#date,	@p1#addon#payin#outst#16#invoice,	@p1#addon#payin#outst#16#amount, @f1, @d6_id, 'unpaid', @success output
+	if @success = 1 goto goto_next_record
+	exec usp_d6_payment_import @p1#addon#payin#outst#17#date,	@p1#addon#payin#outst#17#invoice,	@p1#addon#payin#outst#17#amount, @f1, @d6_id, 'unpaid', @success output
+	if @success = 1 goto goto_next_record
+	exec usp_d6_payment_import @p1#addon#payin#outst#18#date,	@p1#addon#payin#outst#18#invoice,	@p1#addon#payin#outst#18#amount, @f1, @d6_id, 'unpaid', @success output
+	if @success = 1 goto goto_next_record
+	exec usp_d6_payment_import @p1#addon#payin#outst#19#date,	@p1#addon#payin#outst#19#invoice,	@p1#addon#payin#outst#19#amount, @f1, @d6_id, 'unpaid', @success output
+	if @success = 1 goto goto_next_record
+	exec usp_d6_payment_import @p1#addon#payin#outst#20#date,	@p1#addon#payin#outst#20#invoice,	@p1#addon#payin#outst#20#amount, @f1, @d6_id, 'unpaid', @success output
+	if @success = 1 goto goto_next_record
+	exec usp_d6_payment_import @p1#addon#payin#outst#21#date,	@p1#addon#payin#outst#21#invoice,	@p1#addon#payin#outst#21#amount, @f1, @d6_id, 'unpaid', @success output
+	if @success = 1 goto goto_next_record
+	exec usp_d6_payment_import @p1#addon#payin#outst#22#date,	@p1#addon#payin#outst#22#invoice,	@p1#addon#payin#outst#22#amount, @f1, @d6_id, 'unpaid', @success output
+	if @success = 1 goto goto_next_record
+	exec usp_d6_payment_import @p1#addon#payin#outst#23#date,	@p1#addon#payin#outst#23#invoice,	@p1#addon#payin#outst#23#amount, @f1, @d6_id, 'unpaid', @success output
+	if @success = 1 goto goto_next_record
+	exec usp_d6_payment_import @p1#addon#payin#outst#24#date,	@p1#addon#payin#outst#24#invoice,	@p1#addon#payin#outst#24#amount, @f1, @d6_id, 'unpaid', @success output
+	if @success = 1 goto goto_next_record
+	exec usp_d6_payment_import @p1#addon#payin#outst#25#date,	@p1#addon#payin#outst#25#invoice,	@p1#addon#payin#outst#25#amount, @f1, @d6_id, 'unpaid', @success output
+	if @success = 1 goto goto_next_record
+	exec usp_d6_payment_import @p1#addon#payin#outst#26#date,	@p1#addon#payin#outst#26#invoice,	@p1#addon#payin#outst#26#amount, @f1, @d6_id, 'unpaid', @success output
+	if @success = 1 goto goto_next_record
+	exec usp_d6_payment_import @p1#addon#payin#outst#27#date,	@p1#addon#payin#outst#27#invoice,	@p1#addon#payin#outst#27#amount, @f1, @d6_id, 'unpaid', @success output
+	if @success = 1 goto goto_next_record
+	exec usp_d6_payment_import @p1#addon#payin#outst#28#date,	@p1#addon#payin#outst#28#invoice,	@p1#addon#payin#outst#28#amount, @f1, @d6_id, 'unpaid', @success output
+	if @success = 1 goto goto_next_record
+	exec usp_d6_payment_import @p1#addon#payin#outst#29#date,	@p1#addon#payin#outst#29#invoice,	@p1#addon#payin#outst#29#amount, @f1, @d6_id, 'unpaid', @success output
+	if @success = 1 goto goto_next_record
+	exec usp_d6_payment_import @p1#addon#payin#outst#30#date,	@p1#addon#payin#outst#30#invoice,	@p1#addon#payin#outst#30#amount, @f1, @d6_id, 'unpaid', @success output
+	if @success = 1 goto goto_next_record
+	exec usp_d6_payment_import @p1#addon#payin#outst#31#date,	@p1#addon#payin#outst#31#invoice,	@p1#addon#payin#outst#31#amount, @f1, @d6_id, 'unpaid', @success output
+	if @success = 1 goto goto_next_record
+	exec usp_d6_payment_import @p1#addon#payin#outst#32#date,	@p1#addon#payin#outst#32#invoice,	@p1#addon#payin#outst#32#amount, @f1, @d6_id, 'unpaid', @success output
+	if @success = 1 goto goto_next_record
+	exec usp_d6_payment_import @p1#addon#payin#outst#33#date,	@p1#addon#payin#outst#33#invoice,	@p1#addon#payin#outst#33#amount, @f1, @d6_id, 'unpaid', @success output
+	if @success = 1 goto goto_next_record
+	exec usp_d6_payment_import @p1#addon#payin#outst#34#date,	@p1#addon#payin#outst#34#invoice,	@p1#addon#payin#outst#34#amount, @f1, @d6_id, 'unpaid', @success output
+	if @success = 1 goto goto_next_record
+	exec usp_d6_payment_import @p1#addon#payin#outst#35#date,	@p1#addon#payin#outst#35#invoice,	@p1#addon#payin#outst#35#amount, @f1, @d6_id, 'unpaid', @success output
+	if @success = 1 goto goto_next_record
+	exec usp_d6_payment_import @p1#addon#payin#outst#36#date,	@p1#addon#payin#outst#36#invoice,	@p1#addon#payin#outst#36#amount, @f1, @d6_id, 'unpaid', @success output
+	if @success = 1 goto goto_next_record
+	exec usp_d6_payment_import @p1#addon#payin#outst#37#date,	@p1#addon#payin#outst#37#invoice,	@p1#addon#payin#outst#37#amount, @f1, @d6_id, 'unpaid', @success output
+	if @success = 1 goto goto_next_record
+	exec usp_d6_payment_import @p1#addon#payin#outst#38#date,	@p1#addon#payin#outst#38#invoice,	@p1#addon#payin#outst#38#amount, @f1, @d6_id, 'unpaid', @success output
+	if @success = 1 goto goto_next_record
+	exec usp_d6_payment_import @p1#addon#payin#outst#39#date,	@p1#addon#payin#outst#39#invoice,	@p1#addon#payin#outst#39#amount, @f1, @d6_id, 'unpaid', @success output
+	if @success = 1 goto goto_next_record
+	exec usp_d6_payment_import @p1#addon#payin#outst#40#date,	@p1#addon#payin#outst#40#invoice,	@p1#addon#payin#outst#40#amount, @f1, @d6_id, 'unpaid', @success output
+	if @success = 1 goto goto_next_record
+	exec usp_d6_payment_import @p1#addon#payin#outst#41#date,	@p1#addon#payin#outst#41#invoice,	@p1#addon#payin#outst#41#amount, @f1, @d6_id, 'unpaid', @success output
+	if @success = 1 goto goto_next_record
+	exec usp_d6_payment_import @p1#addon#payin#outst#42#date,	@p1#addon#payin#outst#42#invoice,	@p1#addon#payin#outst#42#amount, @f1, @d6_id, 'unpaid', @success output
+	if @success = 1 goto goto_next_record
+	exec usp_d6_payment_import @p1#addon#payin#outst#43#date,	@p1#addon#payin#outst#43#invoice,	@p1#addon#payin#outst#43#amount, @f1, @d6_id, 'unpaid', @success output
+	if @success = 1 goto goto_next_record
